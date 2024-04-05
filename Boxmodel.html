@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kushkesh bhadauriya learning box model</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            box-sizing: border-box;
+         }
+         .box1{
+            width:100px;
+            height:100px;
+         }
+         .red{
+            position: relative;
+            background-color: red;
+            bottom:50px;
+            right:50px;
+         }
+         .green{
+            position:absolute;
+            background-color: green;
+            bottom:0;
+            right:0;
+         }
+         .blue{
+             position:fixed;
+            background-color: blue;
+         }
+         .purple{
+            background-color: purple;
+            position:sticky;
+            top:50px;
+         }
+         .spacer{
+            height:300vh;
+         }
+         .container{
+            width:300px;
+            height:300px;
+            background-color:gainsboro;
+         }
+         #main{
+             
+            /* color:transparent; */
+            text-align: center;
+           /* text-shadow: 2px 2px  blue,-2px 2px red; */
+           font-weight: lighter;
+         }
+        .box{
+            width:200px;
+            height:200px;
+            border:20px solid red;
+            padding:30px;
+            margin:40px;
+        }
+        #second{
+            color:darkslateblue;
+            text-align: center;
+            text-decoration: underline;
+            /* text-decoration: overline; */
+             text-decoration-color: aqua;
+
+        }
+        p{
+           color:brown;
+           text-decoration:underline;
+           text-decoration-color:aqua;
+
+        }
+    </style>
+</head>
+<body>
+<h1 id="main">Unlock The Shadow Effect of text</h1>
+    <div class="box">
+        Box
+    </div>
+    <div class="honululu">
+        <h1 id="second">  Unlock the property of css</h1>
+        <p> 
+            CSS, or Cascading Style Sheets, is pivotal in web development for styling HTML elements. It enables separation of content and presentation, responsive design for various devices, and animation effects without JavaScript. Preprocessors 
+            like Sass enhance efficiency, while 
+            frameworks such as Bootstrap offer pre-designed UI components, simplifying layout creation.</p>
+            <a href="#"> click me</a>
+            
+    </div>
+    <div class="container">
+        <div class="box1 red"></div>
+        <div class="box1 green"></div>
+        <div class="box1 blue"></div>
+        <div class="box purple"></div>
+    </div>
+    <div class="spacer"></div>
+</body>
+</html>
