@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <style>
+        .container{
+            border:10px solid green;
+        }
+        .col{
+            min-height: 250px;
+            background: yellow;
+        }
+        .box-1{
+            min-height: 250px;
+            background:yellow;
+        }
+        .box-2{
+            min-height: 250px;
+            background:orange;
+        }
+        .box-3{
+            min-height: 250px;
+            background:green;
+        }
+        .pink{
+            background:pink ;
+        }
+        .orange{
+            background:#f39c12;
+        }
+        .blue{
+            background: #4aa6ee;
+        }
+        .green{
+            background: yellowgreen;
+        }
+        .cyan{
+            background: darkturquoises;
+        }
+     </style>
+</head>
+<body>
+    <!-- bootstrap start  -->
+   <div class="class">
+    <div class="row">
+        <div class="col box-1">Box-1</div>
+        <div class="col box-2">Box-2</div>
+        <div class="col box-3">Box-3</div>
+    </div>
+   </div>
+   <div>
+    <p class="h1">h1 bootstrap property</p>
+    <p class="h2">h2 bootstrap property</p>
+    <p class="h3"> h3 bootstrap property</p>
+
+    <h3 class="display-3">
+        Display-3 property
+    </h3>
+    <h3 class="display-4">
+        Display-4 property
+    </h3>
+    <h3 class="display-5">
+        Display-5 property
+    </h3>
+   </div>
+   <div> 
+     <!-- typography -->
+   <blockquote class="blockquote">
+    <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    <footer class="blockquote-footer">From WWF's website</footer>
+  </blockquote>
+  </div>
+  <div>
+    <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae id ipsam saepe eius, quidem sed sapiente? 
+        Iusto exercitationem esse modi amet maiores! Obcaecati praesentium vel consequuntur 
+        quae quos ex quibusdam quasi?</p>|
+        <p class="text-end"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nemo illo. 
+            Ducimus voluptatibus 
+            distinctio nobis ipsam vel repellat harum, 
+            nulla asperiores placeat nisi.</p>
+            <p class="text-left"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nemo illo. 
+                Ducimus voluptatibus 
+                distinctio nobis ipsam vel repellat harum, 
+                nulla asperiores placeat nisi.</p> 
+                <p class="text-right"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, nemo illo. 
+                    Ducimus voluptatibus 
+                    distinctio nobis ipsam vel repellat harum, 
+                    nulla asperiores placeat nisi.</p> 
+  </div>
+<!--  align items  -->
+<div class="d-flex align-items-start">
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Optio velit impedit eveniet esse voluptas tempora atque delectus amet? Voluptatem, quis? Vitae quod eius quo.</p>
+
+ 
+</div>
+<div class="d-flex align-items-end">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Optio velit impedit eveniet esse voluptas tempora atque delectus amet? Voluptatem, quis? Vitae quod eius quo.
+</div>
+<div class="d-flex align-items-baseline">
+ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, labore?  
+</div>
+ <div class="d-flex align-items-stretch">
+   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, illo?
+ </div>
+ <!-- 
+    TEXT UPPERCASE,LOWERCASE AND ETC.
+  -->
+  <div class="bg-success"> 
+  <p class="text-lowercase text-white">Lowercased text.</p>
+<p class="text-uppercase text-white bg-dark">Uppercased text.</p>
+<p class="text-justify text-white">Lowercased text.</p>
+<p class="text-capitalize text-danger bg-white" >CapiTaliZed text.</p>
+</div>
+<!-- Grid system -->
+<div class="row">
+    <div class="col-lg-3 col-md-6">Hello</div>
+    <div class="col-lg-3 col-md-6">Hello1</div>
+    <div class="col-lg-3 col-md-6">Hello2</div>
+    <div class="col-lg-3 col-md-6ss">Hello3</div>
+    <!-- Auto coloum layout -->
+   <div class="col-lg">All the best</div>
+   <div class="col-lg">All the best</div>
+   <div class="col-lg">All the best</div>
+   <div class="col-lg">All the best</div>
+   <div class="col-lg">All the best</div>
+   <!-- row-colum combo -->
+   <div class="row row-cols-2s row-cols-lg-4">
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+   <div class="col">coloum</div>
+</div>
+<!-- display-->
+  <div class="container" style="border:5px solid black">
+    <div class="p-3 pink d-lg-inline-block">  <h2> Col A</h2> 
+    <p> Lorem ipsum dolor sit amet.</p>
+ </div>
+  <div class="p-3 green d-lg-inline-block">  <h2> Col B</h2> 
+    <p> Lorem ipsum dolor sit amet.</p>
+</div>
+</div>
+<!-- inside display justify-content -->
+ <div class="container">
+    <div class="d-flex justify-content-start"> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, numquam.</p></div>
+    <div class="d-flex justify-content-center"> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, numquam.</p></div>
+    <div class="d-flex justify-content-between"> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, numquam.</p>
+     <div class="d-flex justify-content-around"> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, numquam.</p>
+    <div class="d-flex justify-content-evenly"> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, numquam.</p></div>
+ </div>
+</body>
+</html>

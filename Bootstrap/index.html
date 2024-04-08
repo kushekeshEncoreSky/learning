@@ -82,10 +82,12 @@
        display:flex;
        flex-direction:column;
     }
-    p{
+    .lovebabbar:hover{
         border: 1px solid red;
     }
+    
     img{
+ 
         width:250px;
     }
     @media (max-width:640px){
@@ -93,6 +95,52 @@
                 flex-direction: column;
             }
     }
+    .container2 p:first-child{ 
+           color:red;
+    }
+    .container2 p:last-child{
+        color:green;
+    }
+    .container2 p:last-of-type{ 
+           color:blue
+    }
+    .container2 p:nth-child(2){ 
+           color:aqua;
+    }
+    .container2 :only-of-type{ 
+          color:brown;
+    }
+    .container2 p:only-child{ 
+          color:violets;
+    }
+    .container2 p:nth-last-child(4){ 
+          color:red;
+    }
+    .container2 p:nth-last-child(4){ 
+          color:red;
+    }
+    a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
    </style>
 <body>
     <div class="container">
@@ -106,8 +154,8 @@
     </div> 
     <div class="container1"> 
         <div id="box-left">
-          <p>Tex1</p>
-          <p> Text2</p>
+          <p class="lovebabbar">Tex1</p>
+          <p class="lovebabbar"> Text2</p>
         </div>
         <div class="box-right">
             <img src="/nios.jpg"> 
@@ -119,8 +167,24 @@
      <div class="container2">
         <div class="boxpsuedo">
             <h3> this is explanantion of psuedo classes</h3>
+            <p> Box1 paragraph one </p>
+            <p> Box1 paragraph Two </p>
+            <p> Box1 paragraph Three </p>
+            <p> Box1 paragraph Four </p>
+        </div>
+        <p> container paragraph  one </p>
+        <p> Container  paragraph Two</p>
+        <div class="boxpsuedo2">
+            <p> Box2 paragraph one </p>
+            <p> box2 paragraph Two </p>
+            <p> Box2 paragraph Three </p>
         </div>
      </div>
    
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
 </body>
 </html>
