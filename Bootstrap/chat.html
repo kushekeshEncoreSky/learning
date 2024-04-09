@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation Bar</title>
+<style>
+  /* Reset some default browser styles */
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation bar styles */
+  .navbar {
+    background-color: #a31b1b;
+    overflow: hidden;
+  }
+
+  /* Logo styles */
+  .navbar .logo {
+    float: left;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* Attribute styles */
+  .navbar .attributes {
+    float: right;
+    padding: 15px 20px;
+  }
+
+  /* Button styles */
+  .navbar .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  /* Clearfix to clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a class="logo" href="#">Your Logo</a>
+  <div class="attributes">
+    <a href="#" style="color:azure">Attribute 1</a>
+    <a href="#" style="color:azure">Attribute 2</a>
+    <a href="#" style="color:azure">Attribute 3</a>
+    <button class="button">Button</button>
+  </div>
+</div>
+
+</body>
+</html>
